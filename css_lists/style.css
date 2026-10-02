@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+/* 1. Danh sách không có thứ tự */
+.subjects {
+    list-style-type: square;
+}
+
+/* 2. Danh sách có thứ tự - số La Mã */
+.steps {
+    list-style-type: upper-roman;
+}
+
+/* 3. Sử dụng hình ảnh làm dấu đánh dấu */
+.tools {
+    list-style-image: url("https://cdn-icons-png.flaticon.com/16/1828/1828640.png");
+}
+
+/* 4. Vị trí dấu đánh dấu */
+.outside {
+    list-style-position: outside;
+    width: 500px;
+    background-color: #eeeeee;
+}
+
+.inside {
+    list-style-position: inside;
+    width: 500px;
+    background-color: #eeeeee;
+}
+
+/* 5. Thuộc tính rút gọn list-style */
+.shortcut {
+    list-style: square inside;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* 6. Màu sắc và khoảng cách */
+.languages {
+    background-color: #e8f4ff;
+    color: #0066cc;
+    padding: 25px;
+    margin: 20px;
+}
+
+.languages li {
+    margin: 10px;
+}
+
+/* 7. Bài tập tổng hợp */
+.roadmap {
+    list-style: decimal inside;
+    background-color: #eeeeee;
+    color: #333333;
+    padding: 25px;
+    margin: 20px;
+}
+
+.roadmap li {
+    margin: 10px;
+}
